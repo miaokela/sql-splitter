@@ -12,7 +12,9 @@ query_user_info: |
     group.name AS group_name
   FROM user
   JOIN group ON user.group_id = group.id
-  WHERE user.id = :user_id;
+  {% if user_id > 0 %}
+  WHERE user.id = :user_id
+  {% endif %}
 
 
 
