@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sql-spliter
+Version: 0.0.1
+Summary: Use YAML files to strip SQL statements from the program, and implement dynamic SQL through Jinja2.
+Author: miaokela
+Author-email: 2972799448@qq.com
+Maintainer: miaokela
+Maintainer-email: 2972799448@qq.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5+
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+
+Use YAML files to strip SQL statements from the program, and implement dynamic SQL through Jinja2.

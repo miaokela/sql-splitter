@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sql_spliter.egg-info/PKG-INFO
+sql_spliter.egg-info/SOURCES.txt
+sql_spliter.egg-info/dependency_links.txt
+sql_spliter.egg-info/requires.txt
+sql_spliter.egg-info/top_level.txt
+sql_splitter/__init__.py
+sql_splitter/core.py

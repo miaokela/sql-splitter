@@ -1,0 +1,18 @@
+query_user_info: |
+  SELECT
+    user.id,
+    user.account_id,
+    user.account_name,
+    user.user_name,
+    user.password,
+    user.phone,
+    user.is_delete,
+    user.enable_flag,
+    user.register_datetime,
+    group.name AS group_name
+  FROM user
+  JOIN group ON user.group_id = group.id
+  WHERE user.id = :user_id;
+
+
+

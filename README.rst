@@ -1,0 +1,1 @@
+Use YAML files to strip SQL statements from the program, and implement dynamic SQL through Jinja2.
